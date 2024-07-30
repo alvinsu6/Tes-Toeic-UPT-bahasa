@@ -1,0 +1,65 @@
+/* styles.css or within a <style> tag */
+.logo-login img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-body {
+  width: 100%; /* Lebar penuh layar */
+  min-height: 100vh; /* Tinggi minimal 100vh agar selalu menempati seluruh layar */
+  display: flex;
+  flex-direction: column; /* Ubah arah kolom untuk tata letak di perangkat seluler */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#1566cff3, #1566cf49), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%231566cf" fill-opacity="1" d="M0,192L40,208C80,224,160,256,240,234.7C320,213,400,139,480,117.3C560,96,640,128,720,154.7C800,181,880,203,960,208C1040,213,1120,203,1200,192C1280,181,1360,171,1400,165.3L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Pastikan gambar latar berada di tengah */
+}
+
+.logo-conten {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.logo-conten h1 {
+  font-size: 25px;
+  margin-bottom: 8px;
+  font-weight: 550;
+}
+
+.logo-conten p {
+  font-size: 17px;
+  font-weight: 540;
+}
+/* Unauthorized.css */
+.unauthorized-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.unauthorized-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.unauthorized-message {
+  font-size: 1.2em;
+}

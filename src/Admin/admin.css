@@ -1,0 +1,153 @@
+.admin-body {
+  margin-top: 0px;
+}
+
+.nav-admin {
+  margin-top: 0px;
+  
+}
+.card-class{
+
+margin: 20px;
+}
+.upload-sertif{
+  margin: 20px;
+}
+.buttonBayar {
+  background-color: aqua;
+}
+
+.buttonVerifikasi {
+  background-color: rgb(23, 119, 39);
+}
+
+.buttonDelete {
+  background-color: rgb(219, 6, 6);
+}
+
+.tambah-kelas {
+  width: 130px;
+}
+
+.me-auto {
+  color: black;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  width: 250px;
+  transition: width 0.3s;
+  background: #343a40;
+  color: #fff;
+  position: fixed;
+  height: 100%;
+  overflow: auto; /* Add this for scrolling */
+}
+
+.sidebar-closed .sidebar {
+  width: 80px;
+}
+
+.sidebar-header {
+  padding: 20px;
+  background: #6c757d;
+  cursor: pointer;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar ul li a {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background: #495057;
+}
+
+.main-content {
+  margin-left: 250px;
+  transition: margin-left 0.3s;
+  width: calc(100% - 250px);
+  padding: 0px; /* Add padding to ensure content is not too close to the edges */
+}
+
+.sidebar-closed .main-content {
+  margin-left: 80px;
+  width: calc(100% - 80px);
+}
+
+.list-unstyled.components li a svg {
+  margin-right: 10px;
+}
+
+.card-jurusan {
+  background-color: #365a9e;
+  color: white;
+}
+/* admin.css */
+
+.table-centered {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.table-centered thead tr {
+  background-color: #232858;
+  color: #ffffff;
+}
+
+.table-centered th, .table-centered td {
+  padding: 12px 15px;
+}
+
+.table-centered tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table-centered tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table-centered tbody tr:last-of-type {
+  border-bottom: 2px solid #232858;
+}
+
+.table-centered tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+  .sidebar-closed .sidebar {
+      width: 100%;
+  }
+  .main-content {
+      margin-left: 0;
+      width: 100%;
+  }
+  .sidebar-closed .main-content {
+      margin-left: 0;
+      width: 100%;
+  }
+}

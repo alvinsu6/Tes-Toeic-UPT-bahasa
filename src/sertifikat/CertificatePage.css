@@ -1,0 +1,47 @@
+.certificate-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.certificate-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.certificate-list {
+  display: grid;
+  gap: 10px;
+}
+
+.certificate-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: white;
+  background-color: #232858;
+  position: relative;
+}
+
+.certificate-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.certificate-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.certificate-not-uploaded {
+  color: #bb2929;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #ff0000; /* Warna merah untuk tombol close */
+}

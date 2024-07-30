@@ -1,0 +1,28 @@
+/* Pendaftaran.css */
+
+.custom-card{
+    position: absolute;
+  left: 55%; /* Center the card horizontally */
+  transform: translateX(-50%); /* Center the card horizontally */
+  top: 100px; /* Adjust the top position as needed */
+  margin-top: 80px; /* Adjust the margin-top as needed */
+  max-width: 550px;
+  height: 400px; /* Adjust the height as needed */
+
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  /* Add additional styles as needed */
+  

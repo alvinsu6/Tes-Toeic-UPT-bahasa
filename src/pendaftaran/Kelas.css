@@ -1,0 +1,88 @@
+.logo-class {
+
+margin-top: 30px;
+   
+    width: 300px;
+    z-index: 100;
+  }
+  
+  .custom-card {
+    top: 40px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 40px;
+    background-color: #ffffff; /* Warna background */
+  }
+  
+  .card-header {
+    background-color: #232858;
+    color: #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  
+  .class-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .class-details p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .register-button, .registered-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .participants-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .table th, .table td {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  
+  
+  .position-relative {
+    position: relative;
+  }
+  .close-button {
+    font-size: 1.5rem;
+    color: #6d6d6d;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #dc3545;
+  }
+  .registered-button{
+    margin: 5px;
+  }

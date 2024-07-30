@@ -1,0 +1,61 @@
+.card-transition-enter {
+  opacity: 0;
+  margin-top: -20px;
+}
+
+.card-transition-enter-active {
+  opacity: 1;
+  margin-top: 0;
+  transition: opacity 500ms, margin-top 500ms;
+}
+
+.card-transition-exit {
+  opacity: 1;
+}
+
+.card-transition-exit-active {
+  opacity: 0;
+  margin-top: -20px;
+  transition: opacity 500ms, margin-top 500ms;
+}
+
+/* Bagian Comdaftar */
+.card-hover {
+  transition: transform 0.2s ease-in-out;
+  border-radius: 25px;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(78, 67, 67, 0.2);
+}
+
+.user-body {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+.card-header-blue {
+  background-color: #000080;
+  padding: 10px;
+  color: #fff;
+}
